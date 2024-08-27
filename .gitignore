@@ -1,0 +1,30 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.env/
+
+# IDE or editor files
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Flask instance folder
+instance/
+
+# Environment variable file
+.env
+
+# MySQL database file
+*.sql
+
+# Logs
+*.log
