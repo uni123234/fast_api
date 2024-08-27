@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Weather App</title>
+		<link
+			rel="stylesheet"
+			href="{{ url_for('static', filename='styles.css') }}"
+		/>
+	</head>
+	<body>
+		<div class="weather-app">
+			<h1>Дізнатись погоду</h1>
+			<div class="date-input">
+				<input
+					type="date"
+					id="weatherDate"
+					placeholder="поле для введення дати"
+				/>
+				<button id="findWeather">Знайти!</button>
+			</div>
+			<div class="weather-info" id="weatherInfo">
+				Тут буде інформація про погоду
+			</div>
+		</div>
+		<script src="{{ url_for('static', filename='script.js') }}"></script>
+	</body>
+</html>
